@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+a {
+text-decoration: black;
+
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+}
+
+.avatar:hover {
+  box-shadow: 2px 4px 6px rgba(190, 11, 11, 0.25);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info-text {
+margin-left: 40px;
+}
+
+.info p {
+color:#0f141e;
+margin: 0;
+font-style: italic;
+text-decoration: none;
+}
+
+.bg-yellow {
+  background: pink;
+}
+
+.bg-green {
+  background: rgb(255, 234, 195);
+}
+
+.bg-red {
+  background: rgb(207, 235, 255);
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+ol {
+  margin: 0 20px;
+
+}
+
+ol li {
+text-decoration: #0f141e;
+margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  margin-bottom: 10px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  text-decoration: #0f141e;
+}
